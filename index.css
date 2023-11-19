@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100wh;
+    height: 100vh;
+}
+
+#navbar-pinterest{
+    background-color: yellow;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#pinterest-icon{
+    width: 20px;
+    height: 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.finder{
+    width: 20px;
+    height: 5px;
+}
+
+.finder input{
+    border-radius: 50%;
+}
+
+#notifications{
+    width: 20px;
+    height: 5px;
+}
+
+#message{
+    width: 20px;
+    height: 5px;
+}
+
+#profile{
+    width: 20px;
+    height: 5px;
+    border-radius: 50%;
+}
