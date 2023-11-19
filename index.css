@@ -48,3 +48,5 @@ body{
     height: 5px;
     border-radius: 50%;
 }
+
+@media screen and (min-wdth: 768px) and (max-width:1024px){}
