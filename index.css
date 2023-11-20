@@ -2,51 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
 }
 
-body{
-    width: 100wh;
-    height: 100vh;
+body {
+    max-width: 100%;
 }
 
-#navbar-pinterest{
-    background-color: yellow;
+.navbar {
     width: 100%;
-    height: 20%;
-    display: flex;
-    flex-flow: row wrap;
+    height: 5px;
+    justify-content: flex-start;
 }
 
 #pinterest-icon{
-    width: 20px;
-    height: 5px;
+    width: 5%;
+    height: 10%;
+}
+
+.d1{
     display: flex;
-    flex-flow: row wrap;
+
 }
 
-.finder{
-    width: 20px;
-    height: 5px;
+
+
+
+input {
+    border-radius: 30px;
+    background-color: #efefef !important;
+    border-color: #efefef !important;
+  }
+input:hover {
+    background-color: #dbdbdb !important;
+    border-color: #dbdbdb !important;
+  }
+
+
+
+#grid-container{
+    background-color: blue;
 }
 
-.finder input{
-    border-radius: 50%;
-}
 
-#notifications{
-    width: 20px;
-    height: 5px;
-}
-
-#message{
-    width: 20px;
-    height: 5px;
-}
-
-#profile{
-    width: 20px;
-    height: 5px;
-    border-radius: 50%;
-}
-
-@media screen and (min-wdth: 768px) and (max-width:1024px){}
+/*@media screen and (min-wdth: 768px) and (max-width:1024px){}*/
