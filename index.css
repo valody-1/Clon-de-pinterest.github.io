@@ -5,44 +5,94 @@
     background-color: white;
 }
 
-body {
-    max-width: 100%;
-}
 
-.navbar {
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-rows: 1fr 2fr 10fr 1fr;
+    grid-template-areas:
+    "header"
+    "main";
+}
+header{
     width: 100%;
-    height: 5px;
-    justify-content: flex-start;
+    color: rgba(255, 255, 255, 0.381);
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-
-#pinterest-icon{
-    width: 5%;
-    height: 10%;
-}
-
-.d1{
+.nav-link{
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;   
+}
+.nav-link a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+.nav-link a:hover {
+    background-color: rgba(225,225, 225, 0.1);
+}
+.nav-link div {
+    width: 30%;
+    margin-left: 20px;
+}  
+.links-l.i {
+    width: 25%;
+    display: flex;
+}
+.links-l.d {
+    display: flex;
+} 
+.finder {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.finder{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #7b7b7b;
+    border: 3px solid transparent;
+    background: rgba(97, 97, 97, 0.233);
+    background-repeat: no-repeat;
+    background-position: 10px center;    
 }
 
+main {
+    grid-area: main;
+    background-color: white;
+    max-width: 100%;
+    margin-bottom: 1em;
+    display: block;
 
-
-
-input {
-    border-radius: 30px;
-    background-color: #efefef !important;
-    border-color: #efefef !important;
-  }
-input:hover {
-    background-color: #dbdbdb !important;
-    border-color: #dbdbdb !important;
-  }
-
-
-
-#grid-container{
-    background-color: blue;
 }
+.content{
+    columns: 5 320px;
+    column-gap: 1em;
+    width: 100%;
+    margin: 15px auto;
 
+}
+.card-image{
+    width: 250px;
+    background: white;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
 
 /*@media screen and (min-wdth: 768px) and (max-width:1024px){}*/

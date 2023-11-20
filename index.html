@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <title>Clon de pinterest</title>
     <link rel="style.css" href="index.css">
     <style>
@@ -16,335 +16,131 @@
 </head>
 
 <body>
-    <nav class="navbar" id="navbar-pinterest">
-        <button class="pinterest" id="pinterest-icon">
-            <a tittle="Pinterest" href="https://www.pinterest.com">
-            <img src="pinterest.png" alt="logo de pinterest">
-            </a>
-        </button>
+    <header>
+        <nav class="nav-link" id="navbar-pinterest">
+            <div class="link-i">
+                <a href="https://www.pinterest.com.mx/" target="_blank">
+                    <img src="pinterest.png" alt="logo" >
+                </a>
 
-        <div class="d1">
-        <button type="button" class="button1"> <strong>Inicio</strong> </button>
+                <a href="#"> Inicio </a>
 
-        <button type="button" class="button2"><strong>Hoy</strong></button>
-        </div>
+                <a href="#"> Explorar </a>
 
-        <div class="d2">
-        <form class="button" id="finder">
-            <input type="search" id="finder" name="finder" placeholder="Buscar">
-        </form>
-        </div>
+                <a href="#"> Crear </a>
+            </div>
 
-        <div class="d3">
-        <button class="button" id="notifications">
-            <img src="notifications.png" alt="notifications">
-        </button>
-        <button class="button" id="message">
-            <img src="message.png" alt="message">
-        </button>
-        <button class="button" id="profile">
-            <img src="foto de perfil.png" alt="profile">
-        </button>
-        </div>
-    </nav>
+            <div class="finder">
+                <input type="text" class="search-input" placeholder="Buscar">
+            </div>
+            <div class="link-d">
+                <a href="#">
+                    <img id="notifications" src="notifications.png" alt="notificaciones">
+                </a>
+                
+                <a href="#">
+                    <img id="message" src="message.png" alt="mensajes">
+                </a>
+                
+                <a href="#">
+                    <img id="profile-img" src="foto de perfil.png" alt="foto de perfil">
+                </a>
 
-    <main class="container" id="grid-container">
-        <div class="columna">
-        <div class="card-img top">
-            <img src="https://i.pinimg.com/736x/39/1a/a9/391aa925f8c5477845007c704504a0bd.jpg" alt="img1">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/736x/39/1a/a9/391aa925f8c5477845007c704504a0bd.jpg" alt="img2">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/736x/39/1a/a9/391aa925f8c5477845007c704504a0bd.jpg" alt="img3">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img4">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/736x/39/1a/a9/391aa925f8c5477845007c704504a0bd.jpg" alt="img5">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
+                <a href="#">
+                    <img id="arrow" src="" alt="flecha">
+                </a>
+             </div>
+        </nav>
 
-        <div class="columna">
-        <div class="card-img top">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img6">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
+    <main id="content">
         <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img7">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
+            <img src="https://i.pinimg.com/236x/31/e9/3c/31e93cafb63229a6a049b227c1fb5a70.jpg" alt="img1" width="250" height="450>
+        </div>
         <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img8">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
+            <img src="https://i.pinimg.com/236x/86/ee/b8/86eeb80cafd897e4ba4ad46ba6433437.jpg" alt="img2" width="250" height="400">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/44/43/14/444314990584ec4e9e26aaeb3477b558.jpg" alt="img3" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/9c/4b/78/9c4b784131b289898c628b410a8db981.jpg" alt="img4" width="250" height="350">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/80/97/01/8097013856bc0fbb273c7faf59e6a521.jpg" alt="img5" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/8b/1c/18/8b1c1870bd7c773b55498b69df33014b.jpg" alt="img6" width="250" height="400">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img7" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/75/4c/08/754c08c9fcac6593348d88f5cebedfd2.jpg" alt="img8" width="250" height="420">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/474x/a0/0e/ae/a00eae159337987e3ea9b0f56ede72fd.jpg" alt="img9" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/474x/46/6c/a0/466ca0b2292377bd6df5b94ddabf66ab.jpg" alt="img10" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/474x/66/19/a9/6619a90a226e580bde36fb6c9dfce43d.jpg" alt="img11" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/474x/fe/87/79/fe877949e9cff5359a34ab5e9385eb4b.jpg" alt="img12" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/44/2a/01/442a0173df46b0b3a0bb15bf4b2cbd81.jpg" alt="img13" width="250" height="500">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/f1/6f/e9/f16fe9152f42e9b215404b499fff2bdf.jpg" alt="img14" width="250" height="400">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/d6/fe/25/d6fe25c0f5c299c13f5f7a13d68a9355.jpg" alt="img15" width="250" height="200">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/52/a0/00/52a00015c6f72d29219884e1f1c0a3b8.jpg" alt="img16" width="250" height="350">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/e6/af/3f/e6af3f43fb6783ac599aa07a9dcbcd2e.jpg" alt="img17" width="250" height="350">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/9e/6f/0a/9e6f0a4751a4e8b3aac9799a45b7c28a.jpg" alt="img18" width="250" height="450">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/1d/cb/a5/1dcba51847a160b4c5b72019314b8fb1.jpg" alt="img19" width="250" height="200">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/d1/b1/77/d1b177e5d2906d3eade69e497b6cd1bc.jpg" alt="img20" width="250" height="350">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/0b/d2/75/0bd275bee96231ecc4ff236ed234fe7e.jpg" alt="img21" width="250" height="320">
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/78/aa/1e/78aa1e8ca96f758f072cb806e635f3c8.jpg" alt="img22" width="250" height="350>
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/10/26/58/102658004e2ed30dcd9ca8e45600abe6.jpg" alt="img23 width="250" height="350"">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/b1/35/bb/b135bb64c93217f47995520868b2e8af.jpg" alt="img24" width="250" height="350">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/7a/7e/68/7a7e68a91201e37f71211f32de3d331d.jpg" alt="img25" width="250" height="300">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/e2/70/b2/e270b2ab99bca28737418fd417addbae.jpg" alt="img26" width="250" height="300">
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/6a/fe/18/6afe18ffc63d44316458958935777c54.jpg" alt="img27" width="250" height="320">
+        </div>
+        <div class="card-image">
+            <img src="https://i.pinimg.com/236x/27/29/8a/27298a92f27b1c787871540c05fa7664.jpg" alt="img28" width="250" height="250">
             </section>
         </div>
         <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img9">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
+            <img src="https://i.pinimg.com/236x/96/bc/00/96bc00102c5b1530b14438f4f79d1b39.jpg" alt="img29" width="250" height="270">
         </div>
         <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img10">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="columna">
-        <div class="card-img top">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img11">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img12">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img13">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img14">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img15">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="columna">
-        <div class="card-img top">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img16">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img17">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img18">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img19">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img20">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="columna">
-        <div class="card-img top">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img21">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img22">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img23">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img24">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img25">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="columna">
-        <div class="card-img top">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img26">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img27">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img28">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img29">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
-        </div>
-        <div class="card-image">
-            <img src="https://i.pinimg.com/originals/77/68/82/77688285fb036b63fa21420ed44ab833.jpg" alt="img30">
-            <section class="botones1" id="1">
-                <button>Buscar</button>
-            </section>
-            <section class="botones2">
-                <img src="" alt="compartir">
-                <button>...</button>
-            </section>
+            <img src="https://i.pinimg.com/236x/d6/47/b2/d647b2ae2e9317fae87534f39d93ef0f.jpg" alt="img30" width="250" height="300">
         </div>
     </div>
 
